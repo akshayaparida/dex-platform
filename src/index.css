@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define a reusable class for nav links */
+.nav-link {
+    @apply text-[18px] text-white font-medium cursor-pointer hover:text-yellow-400;
+  }
+  
